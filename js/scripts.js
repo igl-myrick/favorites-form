@@ -16,5 +16,16 @@ window.addEventListener("load", function(e) {
     let p = document.createElement("p");
     p.append(results);
     body.append(p);
+
+    let ul = document.createElement("ul");
+    let li1 = document.createElement("li");
+    let li2 = document.createElement("li");
+    let li3 = document.createElement("li");
+
+    li1.append(results[1]);
+    li2.append(results[0]);
+    li3.append(results[2]);
+    ul.append(li1, li2, li3);
+    body.append(ul);
   })
 })
