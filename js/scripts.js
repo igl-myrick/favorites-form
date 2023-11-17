@@ -13,10 +13,6 @@ window.addEventListener("load", function(e) {
     
     const results = [favThing1, favThing2, favThing3, favThing4, favThing5];
 
-    let p = document.createElement("p");
-    p.append(results);
-    body.append(p);
-
     let ul = document.createElement("ul");
     let li1 = document.createElement("li");
     let li2 = document.createElement("li");
